@@ -12,7 +12,6 @@
 二、English Note:
 
 1、Author:lazynms
-
 2、Usage：
 cd to current directory and run "python PortScan.py -H yourhost -p 21,22,80,443,8080,6792" 
 
