@@ -6,9 +6,8 @@ import optparse
 import socket
 from socket import *
 from threading import Thread
-
 screenLock=Semaphore(value=1)
-
+#connScan funcion
 def connScan(tgtHost,tgtPort):
 	try:
 		connSkt=socket(AF_INET,SOCK_STREAM)
